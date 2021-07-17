@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title> Vitrine do Mar</title>
+    <style>
+       body{
+           background-image: url(src/image/Produtos/mar.jpg);
+       } </style>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <h1>VITRINE DO MAR</h1>
+            </div>
+    </header>    
+
+    <main>
+        <div class="ofertContainer">
+
+                <!-- Oferta -->
+                <div class="ofertBF">
+                    <span class="blackFriday">BLACK FRIDAY</span>                                     
+                    <p class="description">
+                        Itens com até 70% OFF
+                    </p>
+                </div>
+                <!-- Produtos -->
+        <section class="productsContainer">
+            <div class="products">
+                    <img class="photos" src="src/image/produtos/biquini1.jpg" alt="Foto biquini 1"/>   
+                    <p class="descriptionpeca">Maio monalisa</p> <p>R$150</p>   
+            </div>
+            <div class="products">
+                <img class="photos" src="src/image/produtos/biquini2.jpg" alt="Foto biquini 2"/>  
+                <p class="descriptionpeca">Maio monalisa</p> <p>R$150</p>         
+            </div>
+            <div class="products">
+                <img class="photos" src="src/image/produtos/biquini3.jpg" alt="Foto biquini 3"/>  
+                <p class="descriptionpeca">Maio monalisa</p> <p>R$150</p>        
+            </div>
+        </section>
+
+            <!-- Informações -->
+        <section class="infoContainer">
+            <div class="info">
+                    <img class="icons" src="src/image/icones/frete.png" alt="Ícone de frete"/>
+                    <p><strong>Frete Grátis</strong> nas compras acima de R$150</p>         
+            </div>
+            <div class="info">
+                    <img class="icons" src="src/image/icones/cupom.png" alt="Ícone de cupom de desconto"/>
+                    <p><strong>15% OFF</strong> na primeira compra usando o <strong>cupom: BEMVINDO</strong></p>
+            </div>  
+            <div class="info">
+                    <img class="icons" src="src/image/icones/pagamento.png" alt="Ícone de cartão"/>
+                    <p><strong>5% OFF</strong> para compras em nossos cartões</p>           
+            </div>       
+        </section>
+            <!-- Formulário -->
+            <div class="ofertForm">
+                <p class="description">
+                    Cadastre-se grátis para receber as novidades e ofertas exclusivas da Black Friday
+                </p>
+                <div id="content">
+                    <form id="form" action="#" method="post">
+                        <div class="camp">
+                            <label for="name">Nome:</label>
+                            <input id="name" type="text" required/>  
+                        </div>
+                        
+                        <div class="camp">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" required/>
+                        </div> 
+
+                        <input id="button" class="button" type="submit" value="CADASTRAR"/>
+                    </form>
+                </div>
+            </div>
+        </div>     
+    </main>
+    
+
+    <footer>&copy; 2021 Corpyrigth - <strong><a class="github" href="https://github.com/fabianaag" target="_blank">Fabiana Alves</a></strong></footer>
+   
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

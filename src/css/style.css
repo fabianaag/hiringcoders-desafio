@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Open+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Open+Sans:wght@400;800&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    margin: 0 auto;
+    background-color: #5656566e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    color: #fff;
+    font-family: "Ibarra Real Nova", sans-serif;
+    font-size: 15px;
+    letter-spacing: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+.ofertContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ofertBF{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.ofertForm{
+    margin: 40px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50%;
+    background-color: #565656cb ;
+}
+
+.blackFriday{
+    font-family: "Open sans", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    border: 10px solid #00b773;
+    background-color: #000;
+    flex-basis: 70%;
+    padding: 30px;
+}
+
+.description{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 20px;
+}
+
+.descriptionpeca{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+
+}
+
+form{
+    align-items: center;
+    margin: 30px;
+}
+
+.camp{
+    margin-bottom: 8px;
+}
+
+.camp label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.camp input {
+    padding: 5px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    display: block;
+    width: 500px;
+    border-color: #000;
+}
+
+.button{
+    background-color: #00b773;
+    color:#fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #000;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+.infoContainer{
+    width: 100%;
+    margin: 0 auto;
+    background: #00b773;
+    display: flex;  
+}
+
+.info{
+    margin: 10px;
+    padding: 10px;
+    flex-basis: auto;
+    flex-direction: row;
+}
+
+.icons{
+    float: left;
+    padding: 5px;
+    max-width: 50px;
+}
+
+.productsContainer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex; 
+}
+
+.products{
+    margin: 25px;
+    padding: 10px;
+    flex-basis: auto;
+    flex-direction: row;
+}
+
+.photos{
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media(max-width: 300px){
+    .button{
+        width: 100%;
+    }
+
+    .headerContainer .ofertBF .ofertForm .infoContainer{
+        flex-basis: 100%;
+    }
+}
+
+footer{
+    background-color:  #56565696;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.github{
+    text-decoration: none;
+    color:  #fff;
+}
+
+.github:hover {
+    color: #00b773;
+    text-decoration: none;
+}
+
