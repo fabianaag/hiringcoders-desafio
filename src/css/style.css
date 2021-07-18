@@ -81,10 +81,8 @@ body{
 .descriptionpeca{
     font-family: "Roboto", sans-serif;
     text-align: center;
-    font-size: 15px;
-    background-color: #fff;
     text-align: center;
-    color: black;
+    color: #fff;
     font-weight: 700;
 
 }
